@@ -1,0 +1,120 @@
+   
+   .banner{
+        color: rgb(255, 255, 255);
+        text-align: center;
+       font-size: 30px;
+       background-color: rgb(148, 18, 61);
+       padding: 20px;
+       
+       
+       /* comments */
+    }   
+    nav a{
+        display:inline-block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      
+}
+    body{ 
+        background-color: rgb(165, 181, 194);
+       margin: 0%;
+       padding:5px;
+       box-sizing: border-box;
+        
+    
+    }
+    
+    nav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        display: flex;
+        position: sticky;
+        top: 0;
+        border: none;
+        
+       
+    }
+    nav a:hover{
+        background-color:aliceblue ;
+    color: rgb(0, 0, 0);
+    }
+    .menu-btn{
+        color: white;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 15px;
+        display:none;
+       }
+    
+    h2 {
+        font-size:25px ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:rgb(48, 13, 129);
+            text-align:left;
+        }
+        h3 {
+            font-size:25px ;
+            
+                color: brown;
+                text-transform: uppercase;
+                text-align: left;
+            }
+
+    p{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-style:normal;
+        text-align: justify;
+        line-height: 1.5;
+        background-repeat: no-repeat;
+       
+    }
+    
+    
+button{
+    background-color: aliceblue;
+    color: black;
+}
+
+     @media (max-width: 768px){
+         .banner{
+             font-size: 20px;
+        }
+        .img img{
+            width: 100%;
+            height: auto;
+        }
+        .na nav a{
+            font-size:10px ;
+        }
+    }
+
+    @media (max-width: 480px){
+        .banner{
+            font-size: 15px;
+       }
+       .img img{
+           width: 100%;
+           height: auto;
+       }
+       .na nav a{
+           font-size:20px ;
+           
+          
+       }
+      nav{
+           flex-direction: column;
+           
+       }
+     /*  .menu-btn{
+        display: none;
+       }*/
+       
+   }
+
+
+    
