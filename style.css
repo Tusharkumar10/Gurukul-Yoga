@@ -92,6 +92,14 @@ button{
             font-size:10px ;
         }
     }
+ @media (max-width: 1366px){
+         
+        .img img{
+            width: 80%;
+            height: auto;
+        }
+        
+    }
  
 
     @media (max-width: 480px){
