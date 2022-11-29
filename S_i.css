@@ -52,6 +52,15 @@ button{
  }
  
 }
+@media (max-width: 1366px){
+         
+        .img img{
+            width: auto;
+            height: 280px;
+        }
+        
+    }
+ 
 
 @media (max-width: 480px){
   .banner{
